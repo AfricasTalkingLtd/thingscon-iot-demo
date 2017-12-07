@@ -17,7 +17,6 @@ const byte featureLight = 8;
 char message[50];
 long messageDuration = 0;
 long reading = 0;
-long powerOffTime = 0;
 String topicOrigin = "";
 
 void thingsConCallBack(char topic[], byte* payload, unsigned int length);

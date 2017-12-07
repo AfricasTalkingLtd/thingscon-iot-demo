@@ -1,8 +1,8 @@
 /*
- Name:		ThingsConDemoWiFi101.ino
+ Name:		thingscon-iot-demo.ino
  Created:	12/5/2017 11:52:51 AM
- Author:	Africas Talking
- Simple IOT Demo for the ThingsCon
+ Author:	Africa's Talking (K) Ltd.
+ Simple IOT Demo for the ThingsCon Conference
 */
 
 #include <SPI.h>
@@ -11,7 +11,7 @@
 
 #define sensorPin A0
 const char ssid[] = "My Super Fast Internet";
-const char password[] = "SuperSecretPassowrd";
+const char password[] = "SuperSecretPassword";
 const byte idleLight = 4;
 const byte featureLight = 8;
 char message[50];
